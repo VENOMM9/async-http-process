@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon src/microservice_m1.js",
+    "start": "node src/microservice_m1.js",
     "test": "mocha"
   },
   "keywords": [],
@@ -22,7 +22,6 @@
     "chai": "^4.3.10",
     "chai-http": "^4.4.0",
     "mocha": "^10.2.0",
-    "nodemon": "^3.0.2",
     "sinon": "^17.0.1"
   }
 }
