@@ -4,6 +4,7 @@ const amqp = require('amqplib');
 const dotenv = require('dotenv');
 const winston = require('winston');
 
+
 dotenv.config();
 
 const logger = winston.createLogger({
@@ -68,5 +69,6 @@ app.listen(port, () => {
 });
 
 module.exports = {
+  app,
   publishToQueue,
 };

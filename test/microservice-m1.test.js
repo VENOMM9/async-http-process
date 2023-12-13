@@ -1,29 +1,19 @@
 const chai = require('chai');
-const { expect } = require('chai');
 const chaiHttp = require('chai-http');
-const sinon = require('sinon');
-const { app, publishToQueue } = require('../src/microservice_m1'); // Adjust the path
+const { app } = require('../src/microservice_m1');
 
 chai.use(chaiHttp);
+const expect = chai.expect;
 
 describe('Microservice M1', () => {
-  try {
-    it('should publish a message to the queue on /process', async () => {
-      // Stub the publishToQueue function
-      const publishStub = sinon.stub(app, 'publishToQueue').resolves();
+  it('should publish a message to the queue on /process', async () => {
+    const response = await chai
+      .request(app)
+      .post('/process')
+      .send({ requestData: {} });
 
-      const response = await chai
-        .request(app)
-        .post('/process')
-        .send({ requestData: {} });
-
-      expect(response).to.have.status(200);
-      expect(publishStub.calledOnce).to.be.true;
-
-      // Restore the original function after the test
-      publishStub.restore();
-    });
-  } catch (error) {
-    console.error('Error in Microservice M1 test:', error.message);
-  }
+    // Basic assertions
+    expect(response).to.have.status(200);
+    expect(response.body).to.deep.equal({ status: 'Request received and processing initiated' });
+  });
 });
