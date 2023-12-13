@@ -7,8 +7,9 @@ WORKDIR /usr/src/app
 # Copy package.json and package-lock.json to the working directory
 COPY package*.json ./
 
-# Install app dependencies
-RUN npm install
+RUN npm install --only=production
+
+
 
 # Bundle your app source
 COPY . .
@@ -17,6 +18,6 @@ COPY . .
 EXPOSE 4440
 
 # Command to run your application
-CMD ["nodemon", "src/microservice_m1.js"]
+CMD ["npm", "start"]
 # Define environment variables
 
