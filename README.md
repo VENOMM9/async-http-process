@@ -8,8 +8,8 @@ Microservice M1 and Microservice M2 are Node.js applications that publishes and 
 Installation and Setup
 # Getting Started
 ## Prerequisites
-*Node.js installed
-*RabbitMQ server running
+* Node.js installed
+* RabbitMQ server running
 
 ## Installation
 1. Clone the repository:
