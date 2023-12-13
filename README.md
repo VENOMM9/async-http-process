@@ -1,5 +1,4 @@
 # async-http-process
-Microservice M1, Microservice M2
 Microservice M1 and Microservice M2 are Node.js applications that publishes and consumes messages from a RabbitMQ queue, processes them, and publishes the results back to the queue after a delay.
 
 Getting Started
