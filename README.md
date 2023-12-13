@@ -32,8 +32,8 @@ Ensure that you have a .env file in the project root with the following configur
 4. RABBITMQ_PASSWORD=your-rabbitmq-password
 
 ## Usage
-Start the Microservice M2:
-npm start
+Start the Microservice in M1
+- npm start
 
 ## License
 This project is licensed under the MIT License 
