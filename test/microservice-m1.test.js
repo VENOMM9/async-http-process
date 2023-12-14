@@ -12,7 +12,7 @@ describe('Microservice M1', () => {
       .post('/process')
       .send({ requestData: {} });
 
-    // Basic assertions
+    
     expect(response).to.have.status(200);
     expect(response.body).to.deep.equal({ status: 'Request received and processing initiated' });
   });

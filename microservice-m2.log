@@ -1,43 +1,125 @@
-info: Task processed successfully. Result: {"result":0}
-info: Processing task: {"data":{"result":0}}
-info: Task processed successfully. Result: {"result":0}
-info: Processing task: {"data":{"result":0}}
-info: Task processed successfully. Result: {"result":0}
-info: Processing task: {"data":{"result":0}}
-info: Task processed successfully. Result: {"result":0}
-info: Processing task: {"data":{"result":0}}
-info: Task processed successfully. Result: {"result":0}
-info: Processing task: {"data":{"result":0}}
-info: Task processed successfully. Result: {"result":0}
-info: Processing task: {"data":{"result":0}}
-info: Task processed successfully. Result: {"result":0}
-info: Processing task: {"data":{"result":0}}
-info: Task processed successfully. Result: {"result":0}
-info: Processing task: {"data":{"result":0}}
-info: Task processed successfully. Result: {"result":0}
-info: Processing task: {"data":{"result":0}}
-info: Task processed successfully. Result: {"result":0}
-info: Processing task: {"data":{"result":0}}
-info: Processing task: {"data":{"parameter":8}}
-info: Task processed successfully. Result: {"result":0}
-info: Processing task: {"data":{"result":0}}
-info: Task processed successfully. Result: {"result":0}
-info: Processing task: {"data":{"result":0}}
-info: Task processed successfully. Result: {"result":16}
-info: Processing task: {"data":{"result":16}}
-info: Task processed successfully. Result: {"result":0}
-info: Processing task: {"data":{"result":0}}
-info: Task processed successfully. Result: {"result":0}
-info: Processing task: {"data":{"result":0}}
-info: Task processed successfully. Result: {"result":0}
-info: Processing task: {"data":{"result":0}}
-info: Task processed successfully. Result: {"result":0}
-info: Processing task: {"data":{"result":0}}
-info: Task processed successfully. Result: {"result":0}
-info: Processing task: {"data":{"result":0}}
-info: Task processed successfully. Result: {"result":0}
-info: Processing task: {"data":{"result":0}}
-info: Task processed successfully. Result: {"result":0}
-info: Processing task: {"data":{"result":0}}
-info: Task processed successfully. Result: {"result":0}
-info: Processing task: {"data":{"result":0}}
+info: Processing task: {"data":{"parameter":9}}
+info: Processing task: {"data":{"parameter":9}}
+info: Processing task: {"data":{"parameter":9}}
+info: Processing task: {"data":{"requestData":{}}}
+info: Task processed successfully. Result: {"result":18}
+info: Task processed successfully. Result: {"result":18}
+info: Task processed successfully. Result: {"result":18}
+info: Task processed successfully. Result: {"result":null}
+info: Processing task: {"data":18}
+info: Processing task: {"data":18}
+info: Processing task: {"data":null}
+info: Processing task: {"data":18}
+info: Task processed successfully. Result: {"result":null}
+info: Task processed successfully. Result: {"result":null}
+info: Task processed successfully. Result: {"result":null}
+info: Processing task: {"data":null}
+info: Processing task: {"data":null}
+info: Processing task: {"data":null}
+info: Processing task: {"data":{"parameter":9}}
+info: Task processed successfully. Result: {"result":18}
+info: Processing task: {"data":18}
+info: Task processed successfully. Result: {"result":null}
+info: Processing task: {"data":null}
+info: Processing task: {"data":{"parameter":9}}
+info: Task processed successfully. Result: {"result":18}
+info: Processing task: {"data":18}
+info: Task processed successfully. Result: {"result":null}
+info: Processing task: {"data":null}
+info: Processing task: {"data":{"parameter":9}}
+info: Processing task: {"data":{"requestData":{}}}
+info: Task processed successfully. Result: {"result":18}
+info: Task processed successfully. Result: {"result":null}
+info: Processing task: {"data":18}
+info: Processing task: {"data":null}
+info: Task processed successfully. Result: {"result":null}
+info: Processing task: {"data":null}
+info: Processing task: {"data":{"parameter":9}}
+info: Task processed successfully. Result: {"result":18}
+info: Processing task: {"data":18}
+info: Task processed successfully. Result: {"result":null}
+info: Processing task: {"data":null}
+info: Processing task: {"data":{"parameter":9}}
+info: Task processed successfully. Result: {"result":18}
+info: Processing task: {"data":18}
+info: Processing task: {"data":{"parameter":15}}
+info: Task processed successfully. Result: {"result":null}
+info: Processing task: {"data":null}
+info: Task processed successfully. Result: {"result":30}
+info: Processing task: {"data":30}
+info: Task processed successfully. Result: {"result":null}
+info: Processing task: {"data":null}
+info: Processing task: {"data":{"parameter":15}}
+info: Task processed successfully. Result: {"result":30}
+info: Processing task: {"data":30}
+info: Task processed successfully. Result: {"result":null}
+info: Processing task: {"data":null}
+info: Processing task: {"data":{"parameter":15}}
+info: Task processed successfully. Result: {"result":30}
+info: Processing task: {"data":30}
+info: Task processed successfully. Result: {"result":null}
+info: Processing task: {"data":null}
+info: Processing task: {"data":{"parameter":15}}
+info: Task processed successfully. Result: {"result":30}
+info: Processing task: {"data":30}
+info: Task processed successfully. Result: {"result":null}
+info: Processing task: {"data":null}
+info: Processing task: {"data":{"parameter":15}}
+info: Task processed successfully. Result: {"result":30}
+info: Processing task: {"data":30}
+info: Task processed successfully. Result: {"result":null}
+info: Processing task: {"data":null}
+info: Processing task: {"data":{"parameter":2}}
+info: Task processed successfully. Result: {"result":4}
+info: Processing task: {"data":4}
+info: Task processed successfully. Result: {"result":null}
+info: Processing task: {"data":null}
+info: Processing task: {"data":{"parameter":2}}
+info: Task processed successfully. Result: {"result":4}
+info: Processing task: {"data":4}
+info: Task processed successfully. Result: {"result":null}
+info: Processing task: {"data":null}
+info: Processing task: {"data":{"parameter":2}}
+info: Task processed successfully. Result: {"result":4}
+info: Processing task: {"data":4}
+info: Task processed successfully. Result: {"result":null}
+info: Processing task: {"data":null}
+info: Processing task: {"data":{"requestData":{}}}
+info: Task processed successfully. Result: {"result":null}
+info: Processing task: {"data":{"requestData":{}}}
+info: Processing task: {"data":null}
+info: Processing task: {"data":{"parameter":2}}
+info: Processing task: {"data":{"parameter":2}}
+info: Processing task: {"data":{"parameter":2}}
+info: Processing task: {"data":{"parameter":2}}
+info: Processing task: {"data":{"parameter":2}}
+info: Processing task: {"data":{"requestData":{}}}
+info: Task processed successfully. Result: {"result":null}
+info: Task processed successfully. Result: {"result":4}
+info: Task processed successfully. Result: {"result":4}
+info: Task processed successfully. Result: {"result":4}
+info: Task processed successfully. Result: {"result":4}
+info: Task processed successfully. Result: {"result":4}
+info: Task processed successfully. Result: {"result":null}
+info: Processing task: {"data":4}
+info: Processing task: {"data":null}
+info: Processing task: {"data":null}
+info: Processing task: {"data":4}
+info: Processing task: {"data":4}
+info: Processing task: {"data":4}
+info: Processing task: {"data":4}
+info: Task processed successfully. Result: {"result":null}
+info: Task processed successfully. Result: {"result":null}
+info: Task processed successfully. Result: {"result":null}
+info: Task processed successfully. Result: {"result":null}
+info: Task processed successfully. Result: {"result":null}
+info: Processing task: {"data":null}
+info: Processing task: {"data":null}
+info: Processing task: {"data":null}
+info: Processing task: {"data":null}
+info: Processing task: {"data":null}
+info: Processing task: {"data":{"parameter":2}}
+info: Task processed successfully. Result: {"result":4}
+info: Processing task: {"data":4}
+info: Task processed successfully. Result: {"result":null}
+info: Processing task: {"data":null}

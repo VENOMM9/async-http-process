@@ -1,4 +1,3 @@
-// microservice-m1.js
 const express = require('express');
 const amqp = require('amqplib');
 const dotenv = require('dotenv');
@@ -31,10 +30,10 @@ const publishToQueue = async (tasks, data) => {
 
     console.log('Connected to RabbitMQ');
     
-    console.log('Creating channel...');
+    console.log('Creating channel');
     const channel = await connection.createChannel();
     
-    console.log('Asserting queue...');
+    console.log('Asserting queue');
     await channel.assertQueue(tasks, { durable: true });
     
     console.log('Sending message to the queue...');

@@ -1,8 +1,7 @@
 const dotenv = require('dotenv');
 const winston = require('winston');
-const { publishToQueue } = require('./microservice_m1');
-const amqp = require('amqplib'); // Import amqp, not async-mqtt
-
+const {  publishToQueue } = require('./microservice_m1');
+const amqp = require('amqplib'); 
 dotenv.config();
 
 const logger = winston.createLogger({
@@ -13,6 +12,7 @@ const logger = winston.createLogger({
     new winston.transports.File({ filename: 'microservice-m2.log' }),
   ],
 });
+
 
 const consumeFromQueue = async (queueName, callback) => {
   try {
@@ -26,22 +26,29 @@ const consumeFromQueue = async (queueName, callback) => {
     await channel.assertQueue(queueName, { durable: true });
     console.log('Queue asserted');
 
+   
+
     await channel.consume(queueName, (message) => {
       const data = JSON.parse(message.content.toString());
       callback(data);
 
+
       logger.info('Processing task:', { data });
+      
 
       setTimeout(async () => {
-        const result = data.parameter ? data.parameter * 2 : 0;
+        const result =  data.parameter * 2 
         logger.info('Task processed successfully. Result:', { result });
 
-        await publishToQueue('tasks', { result });
+        await publishToQueue('tasks', result);
+        
+
+        
       }, 5000);
-    }, { noAck: true });
+      
+    }, { noAck: false });
   } catch (error) {
     console.error('Error consuming from the queue:', error.message);
   }
 };
-// Export consumeFromQueue directly
 module.exports = consumeFromQueue;
