@@ -10,6 +10,7 @@ Installation and Setup
 ## Prerequisites
 * Node.js installed
 * RabbitMQ server running
+* Dockerfile
 
 ## Installation
 1. Clone the repository:
